@@ -5,7 +5,7 @@
 
 Submitted by: **Ka Tai Ho**
 
-Time spent: **10** hours spent in total
+Time spent: **20** hours spent in total
 
 ## User Stories
 
@@ -22,6 +22,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 * [X] changing the apps background setting
+* [x] Custom UI
 
 - [X] List anything else that you can get done to improve the app functionality!
 
@@ -31,17 +32,18 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://i.giphy.com/l0HlVovm4cRGx5Nm0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-http://imgur.com/a/nami8 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
 ## Notes
-
 Describe any challenges encountered while building the app.
+- I couldn't figure out how to share a variable between two views. I learned how to use segue, protocols, and delegates.
+- Learning how to fix sigabrt errors and what caused them.
+- Getting use to Swift syntax coming from Java and C style languages.
+- Interacts between which percentage to use and when to enable/disable certain features. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Ka Tai Ho]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
