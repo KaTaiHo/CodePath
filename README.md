@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://giphy.com/gifs/l0HlVovm4cRGx5Nm0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<div style="max-width: 500px;" id="_giphy_l0HlVovm4cRGx5Nm0"></div><script>var _giphy = _giphy || []; _giphy.push({id: "l0HlVovm4cRGx5Nm0",w: 317, h: 585, clickthrough_url: "https://giphy.com/gifs/l0HlVovm4cRGx5Nm0"});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
