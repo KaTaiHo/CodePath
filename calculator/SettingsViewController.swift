@@ -42,7 +42,9 @@ class SettingsViewController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        delegate.changeDefault(newVal: (Double(defaultPercentage.text!) ?? 0)/100)
+        let defaults = UserDefaults.standard
+        let doubleValue = defaults.double(forKey: "defaultVal")
+        delegate.changeDefault(newVal: (Double(defaultPercentage.text!) ?? doubleValue*100)/100)
         
         
         if let text = backgroundColor.text, !text.isEmpty
@@ -59,14 +61,8 @@ class SettingsViewController: UIViewController {
         let settingsColor:String = String(backgroundColor.text!)
         
         switch settingsColor {
-        case "yellow":
-            self.view.backgroundColor = UIColor.yellow
-            changeTextColorSetting(color: UIColor.black)
         case "black":
             self.view.backgroundColor = UIColor.black
-            changeTextColorSetting(color: UIColor.white)
-        case "blue":
-            self.view.backgroundColor = UIColor.blue
             changeTextColorSetting(color: UIColor.white)
         case "gray":
             self.view.backgroundColor = UIColor.gray
